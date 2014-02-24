@@ -31,6 +31,7 @@
 		C531D9EA18BB36BD00DAE14E /* cbProgress7.png in Resources */ = {isa = PBXBuildFile; fileRef = C531D9E018BB36BD00DAE14E /* cbProgress7.png */; };
 		C531D9EB18BB36BD00DAE14E /* cbProgress8.png in Resources */ = {isa = PBXBuildFile; fileRef = C531D9E118BB36BD00DAE14E /* cbProgress8.png */; };
 		C531D9EC18BB36BD00DAE14E /* cbProgress9.png in Resources */ = {isa = PBXBuildFile; fileRef = C531D9E218BB36BD00DAE14E /* cbProgress9.png */; };
+		C531D9F218BB3E9800DAE14E /* CBProgressBar.m in Sources */ = {isa = PBXBuildFile; fileRef = C531D9F118BB3E9800DAE14E /* CBProgressBar.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +74,8 @@
 		C531D9E018BB36BD00DAE14E /* cbProgress7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cbProgress7.png; sourceTree = "<group>"; };
 		C531D9E118BB36BD00DAE14E /* cbProgress8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cbProgress8.png; sourceTree = "<group>"; };
 		C531D9E218BB36BD00DAE14E /* cbProgress9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cbProgress9.png; sourceTree = "<group>"; };
+		C531D9F018BB3E9800DAE14E /* CBProgressBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBProgressBar.h; sourceTree = "<group>"; };
+		C531D9F118BB3E9800DAE14E /* CBProgressBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBProgressBar.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -177,6 +180,8 @@
 			isa = PBXGroup;
 			children = (
 				C531D9D818BB36BD00DAE14E /* CBImage */,
+				C531D9F018BB3E9800DAE14E /* CBProgressBar.h */,
+				C531D9F118BB3E9800DAE14E /* CBProgressBar.m */,
 			);
 			path = CBProgressBar;
 			sourceTree = "<group>";
@@ -306,6 +311,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C531D9B918BB358300DAE14E /* ViewController.m in Sources */,
+				C531D9F218BB3E9800DAE14E /* CBProgressBar.m in Sources */,
 				C531D9B318BB358300DAE14E /* AppDelegate.m in Sources */,
 				C531D9AF18BB358300DAE14E /* main.m in Sources */,
 			);

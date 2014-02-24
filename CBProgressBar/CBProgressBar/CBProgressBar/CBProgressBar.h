@@ -11,5 +11,6 @@
 @interface CBProgressBar : UIView
 
 + (void)showProgressAddedTo:(UIView *)view;
++ (void)hideProgressForView:(UIView *)view;
 
 @end

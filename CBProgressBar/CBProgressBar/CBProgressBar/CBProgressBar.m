@@ -54,6 +54,17 @@
     
 }
 
++ (void)hideProgressForView:(UIView *)view
+{
+    for (UIView *subview in [view subviews])
+    {
+        if ([subview isKindOfClass:self])
+        {
+            [subview removeFromSuperview];
+        }
+    }
+}
+
 - (id)initWithView:(UIView *)view
 {
 	return [self initWithFrame:view.bounds];

@@ -10,6 +10,7 @@
 
 @interface CBProgressBar : UIView
 
++ (void)showProgressAddedTo:(UIView *)view text:(NSString *)text;
 + (void)showProgressAddedTo:(UIView *)view;
 + (void)hideProgressForView:(UIView *)view;
 

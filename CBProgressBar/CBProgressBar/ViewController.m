@@ -52,7 +52,9 @@
 
 - (IBAction)showProgressAction:(id)sender
 {
-    [CBProgressBar showProgressAddedTo:_viewMain];
+//    [CBProgressBar showProgressAddedTo:_viewMain];
+    [CBProgressBar showProgressAddedTo:_viewMain text:@"正在加载,请稍等..."];
+//    [CBProgressBar showProgressAddedTo:_viewMain text:@"等..."];
 }
 
 - (IBAction)hideProgressAction:(id)sender
